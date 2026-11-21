@@ -5,7 +5,7 @@ Repositório destinado a análise de churn, SLA de ativação e receita regional
 
 ---
 
-## O que me levou a agir?
+## O problema
 Na operação de expansão em telecomunicações, acompanhávamos o volume bruto de vendas e o total de cancelamentos de forma isolada em planilhas. Tínhamos um problema claro: vendíamos bem, mas a base líquida não crescia na mesma proporção em determinadas cidades.
 
 Faltava visibilidade para responder a três perguntas de negócio:
