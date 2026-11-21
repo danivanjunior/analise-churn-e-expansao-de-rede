@@ -1,0 +1,19 @@
+-- Criação das duas tabelas
+CREATE TABLE clientes (
+    id_cliente INT PRIMARY KEY,
+    nome_cliente VARCHAR(100),
+    cidade VARCHAR(50),
+    regional VARCHAR(50),
+    data_cadastro DATE
+);
+
+CREATE TABLE assinaturas (
+    id_assinatura INT PRIMARY KEY,
+    id_cliente INT,
+    plano VARCHAR(50),
+    valor_mensal DECIMAL(10, 2),
+    status_contrato VARCHAR(20),
+    data_ativacao DATE,
+    data_cancelamento DATE NULL,
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+);
